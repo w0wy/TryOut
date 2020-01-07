@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ ! -d exec/ ]
+then
+	mkdir exec
+fi
+
+pushd exec/ && cmake .. && make && popd
+	

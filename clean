@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ -d exec ]
+then
+	rm -r -f exec
+fi
